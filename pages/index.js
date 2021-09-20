@@ -17,7 +17,7 @@ export default function Home() {
           <div id={styles.banner} className="mb-10 sm:mb-0">
             <img className="w-28 mt-5 sm:m-5" src="/arm.svg" />
             <img className="pl-5 sm:hidden" src="/PNG DEPAN 1.png" />
-            <h1 className="text-2xl sm:text-4xl font-bold text-white pl-5 tracking-wide" id={styles.title}>APLIKASI AMALIYAH ROBITHOH MURID</h1>
+            <h1 className="text-2xl sm:text-5xl font-bold text-white pl-5 tracking-wide" id={styles.title}>APLIKASI AMALIYAH ROBITHOH MURID</h1>
             <div className="p-4 mt-2 w-full">
               <Link href="#">
                 <a>
