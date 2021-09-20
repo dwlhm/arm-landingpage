@@ -38,10 +38,10 @@ export default function Home() {
             <div className="flex justify-center sm:block">
               <div className="flex flex-col items-center justify-center sm:justify-end sm:mr-5">
                 <div className="w-36 h-36 sm:w-32 sm:h-32 flex flex-wrap justify-center items-center sm:p-5 bg-yellow-400 rounded-full">
-                  <img className="" src="PERSON_1_Desktop.png" />
+                  <img className="" src="/PERSON_1_Desktop.png" />
                 </div>
                 <div className="w-72 hidden sm:block" id={styles.hpMiring}>
-                  <img src="HP_2_Desktop.png" />
+                  <img src="/HP_2_Desktop.png" />
                 </div>
               </div>
             </div>
@@ -52,7 +52,7 @@ export default function Home() {
                 <h3 className="text-lg text-white">& Ke TQN-an</h3>
               </div>
               <div className="row-span-2 flex flex-col items-center justify-center pt-5" id={styles.sholatWrap}>
-                <img className="w-52" src="HP_1_DESKTOP.png" />
+                <img className="w-52" src="/HP_1_DESKTOP.png" />
                 <h3 className="text-lg text-white text-center my-5 mb-0 tracking-wide uppercase sm:capitalized font-bold sm:font-normal" id={styles.sholat}>Tersedia Jadwal <strong>Sholat</strong></h3>
               </div>
             </div>
