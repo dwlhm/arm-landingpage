@@ -52,7 +52,7 @@ export default function Home() {
                 <h3 className="text-lg text-white">& Ke TQN-an</h3>
               </div>
               <div className="row-span-2 flex flex-col items-center justify-center pt-5" id={styles.sholatWrap}>
-                <img className="w-52" src="/HP_1_DESKTOP.png" />
+                <img className="w-52" src="/HP_1_Desktop.png" />
                 <h3 className="text-lg text-white text-center my-5 mb-0 tracking-wide uppercase sm:capitalized font-bold sm:font-normal" id={styles.sholat}>Tersedia Jadwal <strong>Sholat</strong></h3>
               </div>
             </div>
