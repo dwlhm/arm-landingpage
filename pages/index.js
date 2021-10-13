@@ -19,7 +19,7 @@ export default function Home() {
             <img className="pl-5 sm:hidden" src="/PNG DEPAN 1.png" />
             <h1 className="text-2xl sm:text-5xl font-bold text-white pl-5 tracking-wide" id={styles.title}>APLIKASI AMALIYAH ROBITHOH MURID</h1>
             <div className="p-4 mt-2 w-full">
-              <Link href="#">
+              <Link href="https://play.google.com/store/apps/details?id=com.robithohmurid.app">
                 <a>
                   <img className="h-16 hidden sm:block" src="/GOOGLE-PLAY.png" />
                   <div className="w-auto p-4 mx-5 block sm:hidden font-bold tracking-wide" id={styles.downloadBanner} >DOWNLOAD</div>
@@ -66,7 +66,11 @@ export default function Home() {
                 </div>
                 <h3 className="text-white font-bold tracking-wide my-10" id={styles.footer}>DOWNLOAD SEKARANG</h3>
                 <div className="flex justify-center">
-                  <img className="h-16 w-auto" src="/GOOGLE-PLAY.png" />
+                  <Link href="https://play.google.com/store/apps/details?id=com.robithohmurid.app">
+                    <a>
+                      <img className="h-16 w-auto" src="/GOOGLE-PLAY.png" />
+                    </a>
+                  </Link>
                 </div>
               </div>
 
